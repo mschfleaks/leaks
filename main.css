@@ -1,9 +1,8 @@
-
 @font-face {
-  font-family: 'Andale Mono Regular';
-  font-style: normal;
-  font-weight: normal;
-  src: local('Andale Mono Regular'), url('/public/ANDALEMO.ttf') format('ttf');
+    font-family: 'Andale Mono Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Andale Mono Regular'), url('https://mschf-leaks.netlify.app/public/ANDALEMO.woff') format('woff');
 }
 * {
   font-family:'Andale Mono Regular'; font-weight:normal;
