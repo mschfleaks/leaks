@@ -1,12 +1,12 @@
 @font-face {
-    font-family: 'Andale Mono Regular';
+    font-family: 'Andale Mono';
     font-style: normal;
-    font-weight: normal;
-    src: local('Andale Mono Regular'), url('https://mschf-leaks.netlify.app/public/ANDALEMO.woff') format('woff');
+    font-weight: 400;
+    src: local('Andale Mono'), url('https://fonts.cdnfonts.com/s/14985/ANDALEMO.woff') format('woff');
 }
 * {
-  font-family:'Andale Mono Regular'; font-weight:normal;
-  text-transform: uppercase;
+  font-family: 'Andale Mono', sans-serif;
+  font-weight: normal;
 }
 
 body, html {
