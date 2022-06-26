@@ -6,7 +6,7 @@
 }
 * {
   font-family: 'Andale Mono', sans-serif;
-  font-weight: normal;
+  font-weight: normal;text-transform: uppercase;
 }
 
 body, html {
