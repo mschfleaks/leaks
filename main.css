@@ -1,157 +1,158 @@
 @font-face {
-    font-family: 'Andale Mono';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Andale Mono'), url('https://fonts.cdnfonts.com/s/14985/ANDALEMO.woff') format('woff');
+  font-family: 'Andale Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Andale Mono'), url('https://fonts.cdnfonts.com/s/14985/ANDALEMO.woff') format('woff');
 }
 * {
-  font-family: 'Andale Mono', sans-serif;
-  font-weight: normal;text-transform: uppercase;
+font-family: 'Andale Mono', sans-serif;
+font-weight: normal;
+text-transform: uppercase;
 }
 
 body, html {
-  background-color: #000;
-  padding:0;margin:0;outline:0;
-  color:#fff;
+background-color: #000;
+padding:0;margin:0;outline:0;
+color:#fff;
 }
 
 #content {
-  padding:1vw;
+padding:1vw;
 }
 
 h1 {
-  margin:0;font-size:4.96vw;
+margin:0;font-size:4.96vw;
 }
 h2 {
-  margin:0;font-size:2vw;
+margin:0;font-size:2vw;
 }
 #list {
-  margin: 0.75rem 0 1vw 0;
-  
+margin: 0.75rem 0 1vw 0;
+
 }
 .listitem.past {
-  border-left: #8b7b3f solid 5px;
-  color:#c1c1c1;
+border-left: #8b7b3f solid 5px;
+color:#c1c1c1;
 }
 .listitem.latest {
-  border-left: #ffc700 solid 5px;
-  color:#ffc700;
+border-left: #ffc700 solid 5px;
+color:#ffc700;
 }
 .listitem.future {
-  border-left: #ff0413 solid 5px;
-  color: #ff0413;
+border-left: #ff0413 solid 5px;
+color: #ff0413;
 }
 .listitem.discord {
-  border-left: #45a7f7 solid 5px;
-  color: #45a7f7;
-  border-image: linear-gradient(180deg,red,#00b9ff) 1 100%;
+border-left: #45a7f7 solid 5px;
+color: #45a7f7;
+border-image: linear-gradient(180deg,red,#00b9ff) 1 100%;
 }
 .listitem.discord a{
-  color: #45a7f7;
+color: #45a7f7;
 }
 .listitem {
-  padding: 0 1vw 0 1vw;
-  margin:0;
-  -webkit-user-select: none;       
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+padding: 0 1vw 0 1vw;
+margin:0;
+-webkit-user-select: none;       
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
 }
 .listitem.past.hovereffect:hover, .listitem.future.hovereffect:hover {
-  color:#fff;
+color:#fff;
 }
 .listitem h1, .listitem h2 {
-  display: inline-block;
+display: inline-block;
 }
 .listitem h1 {
-  line-height:4.96vw;
+line-height:4.96vw;
 }
 .listitem h2 {
-  margin-right: -0.5vw;
+margin-right: -0.5vw;
 }
 .droppopup {
-  width:100%;
-  height:100%;
-  position:absolute;
-  left:0;
-  z-index: 1;
-  color:#4b4b4b!important;
-  margin:0px;
-  background-color: hsla(0,0%,59.6%,.9);
+width:100%;
+height:100%;
+position:absolute;
+left:0;
+z-index: 1;
+color:#4b4b4b!important;
+margin:0px;
+background-color: hsla(0,0%,59.6%,.9);
 }
 
 hr {
-  border:none;
-  height: 0.5vw;
-  background: #6d6d6d;
-  margin-left:-1vw;
-  margin-top: 2vh;
-  margin-bottom: 2vh;
-  width: calc(100% + 2vw)
+border:none;
+height: 0.5vw;
+background: #6d6d6d;
+margin-left:-1vw;
+margin-top: 2vh;
+margin-bottom: 2vh;
+width: calc(100% + 2vw)
 }
 
 .dpui {
-  padding:2vw 2vw 2vw 2vw;
-  height: calc(100% - 4vw);
-  overflow-y:scroll;
+padding:2vw 2vw 2vw 2vw;
+height: calc(100% - 4vw);
+overflow-y:scroll;
 }
 
 .pu-url {
-  color:#4b4b4b!important;
+color:#4b4b4b!important;
 }
 .pu-url:hover {
-  color:#fff!important;
+color:#fff!important;
 }
 .pu-closebutton {
-  color:#4b4b4b!important;
-  width:15vw;
-  height:15vw;
-  display:block;
-  background-color: rgba(0, 0, 0, 0);
-  border:none;
-  font-size: 15vw;
-  padding:0;
-  margin:0;
-  line-height:15vw;
-  cursor:pointer;
-  text-align:left;
+color:#4b4b4b!important;
+width:15vw;
+height:15vw;
+display:block;
+background-color: rgba(0, 0, 0, 0);
+border:none;
+font-size: 15vw;
+padding:0;
+margin:0;
+line-height:15vw;
+cursor:pointer;
+text-align:left;
 }
 .pu-closebutton:hover {
-  color:#fff!important;
+color:#fff!important;
 }
 #about-button {
-  position:fixed;
-  top: 24px;
-  right: 16px;
-  width: 100%;
-  max-width: 48px;
-  height:100%;
-  max-height:48px;
-  background-image:url('aboutIcon.png');
-  background-size:contain;
-  background-color: #0937bb;
-  border-radius: 5px;
-  border:none;
-  cursor:pointer;
+position:fixed;
+top: 24px;
+right: 16px;
+width: 100%;
+max-width: 48px;
+height:100%;
+max-height:48px;
+background-image:url('aboutIcon.png');
+background-size:contain;
+background-color: #0937bb;
+border-radius: 5px;
+border:none;
+cursor:pointer;
 }
 
 #leader-button {
-  position:fixed;
-  top: 24px;
-  right: 80px;
-  width: 100%;
-  max-width: 48px;
-  height:100%;
-  max-height:48px;
-  background-image:url('icon.png');
-  background-size:contain;
-  background-color: #0937bb;
-  border-radius: 5px;
-  border:none;
-  cursor:pointer;
+position:fixed;
+top: 24px;
+right: 80px;
+width: 100%;
+max-width: 48px;
+height:100%;
+max-height:48px;
+background-image:url('icon.png');
+background-size:contain;
+background-color: #0937bb;
+border-radius: 5px;
+border:none;
+cursor:pointer;
 }
 
 html {
-  visibility: visible;
-  opacity: 1;
+visibility: visible;
+opacity: 1;
 }
