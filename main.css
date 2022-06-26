@@ -156,3 +156,26 @@ html {
 visibility: visible;
 opacity: 1;
 }
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  background-color: #ffc700;
+  color: black;
+  text-align: center;
+  padding: 10px 15px 10px 15px;
+  border-radius: 6px;
+  white-space: nowrap;
+ 
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
