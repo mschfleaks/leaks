@@ -16,17 +16,26 @@ padding:0;margin:0;outline:0;
 color:#fff;
 }
 
-#content {
-padding:1vw;
-}
-
-a{
+a {
   color:#c1c1c1;
   text-decoration: none;
 }
 
+.latest a{
+  color:#ffc700;
+}
+
+a:hover {
+  color:#ffffff;
+  text-decoration: none;
+}
+
+#content {
+padding:1vw;
+}
+
 h1 {
-margin:0;font-size:4.96vw;
+margin:0;font-size:4.4vw;
 }
 h2 {
 margin:0;font-size:2vw;
