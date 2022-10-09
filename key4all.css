@@ -72,13 +72,13 @@ margin:0;
 -ms-user-select: none;
 user-select: none;
 }
-.listitem.past.hovereffect:hover, .listitem.future.hovereffect:hover {
+.listitem.past.hovereffect:hover, .listitem.future.hovereffect:hover, .listitem.latest.hovereffect:hover {
 color:#fff;
 }
-.listitem h1, .listitem h2 {
+.listitem h1, .listitem h2{
 display: inline-block;
 }
-.listitem h1 {
+.listitem h1{
 line-height:4.96vw;
 }
 .listitem h2 {
