@@ -140,7 +140,6 @@ border-radius: 5px;
 border:none;
 cursor:pointer;
 }
-
 #leader-button {
 position:fixed;
 top: 24px;
@@ -156,7 +155,37 @@ border-radius: 5px;
 border:none;
 cursor:pointer;
 }
-
+#shoes{
+  position:fixed;
+  top: 24px;
+  right: 144px;
+  width: 100%;
+  max-width: 48px;
+  height:100%;
+  max-height:48px;
+  background-image:url('foot.png');
+  background-size:contain;
+  background-color: #0937bb;
+  border-radius: 5px;
+  border:none;
+  cursor:pointer;
+}
+#home-button{
+  position:fixed;
+  top: 24px;
+  right: 16px;
+  width: 100%;
+  max-width: 48px;
+  height:100%;
+  max-height:48px;
+  background-image:url('home.png');
+  background-size:contain;
+  background-color: #000000;
+  border-radius: 5px;
+  border:none;
+  cursor:pointer;
+  background-repeat: no-repeat;
+}
 html {
 visibility: visible;
 opacity: 1;
